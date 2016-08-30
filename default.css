@@ -58,11 +58,6 @@ li {
     font-size: 0.8em;
 }
 
-.copy a {
-    text-decoration: none;
-    color: ;
-}
-
 @media only screen and (min-width: 35em) {
 
     body {
@@ -102,7 +97,4 @@ li {
 @page {
     size: 8.27in 11.69in;
     margin: .8in .5in .5in .5in;
-    mso-header-margin: .8in;
-    mso-footer-margin: .5in;
-    mso-paper-source: 0;
 }
