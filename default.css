@@ -80,6 +80,7 @@ li {
         margin-bottom: 0;
     }
 
+    /* Avoid splitting the page within a .job */
     .job {
         page-break-inside: avoid;
     }
