@@ -8,12 +8,13 @@ html {
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, sans-serif;
     font-weight: 300;
-    margin: 20px 0;
-    padding: 20px;
+    margin: 45px 20px;
+    transition: margin 1s;
 }
 
 /* Reset block level elements */
 header,
+footer,
 section,
 h1,
 h2,
@@ -51,12 +52,22 @@ li {
     font-style: italic;
 }
 
+.copy {
+    text-align: center;
+    font-size: 12px;
+    font-size: 0.8em;
+}
+
+.copy a {
+    text-decoration: none;
+    color: ;
+}
+
 @media only screen and (min-width: 35em) {
 
     body {
         width: 80%;
-        margin: 50px auto 25px;
-        padding: 0;
+        margin: 50px 10% 25px;
     }
 
     body section:last-of-type {
