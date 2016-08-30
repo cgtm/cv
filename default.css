@@ -36,7 +36,7 @@ ul {
 
 li {
     margin-left: 1.3em;
-    margin-top: 0.55em;
+    margin-top: 0.5em;
 }
 
 .job {
@@ -86,9 +86,22 @@ li {
         margin-bottom: 0;
     }
 
+    header,
+    section {
+        margin-bottom: 18px;
+    }
+
+    li {
+        margin-top: 0.4em;
+    }
+
     /* Avoid splitting the page within a .job */
     .job {
         page-break-inside: avoid;
+    }
+
+    .copy {
+        display: none;
     }
 
 }
@@ -96,5 +109,5 @@ li {
 /* Printer setup */
 @page {
     size: 8.27in 11.69in;
-    margin: .8in .5in .5in .5in;
+    margin: .6in .4in .4in .4in;
 }
